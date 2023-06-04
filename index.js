@@ -17,6 +17,8 @@ app.use(bodyParser.json());
 // Set EJS as the view engine
 app.set('view engine', 'ejs');
 
+app.use(express.static('public'));
+
 // MySQL connection configuration
 const dbConfig = {
 	host: 'localhost',
