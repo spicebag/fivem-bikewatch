@@ -1,0 +1,28 @@
+{
+  "name": "fivem-bikewatch",
+  "version": "1.0.0",
+  "description": "A project designed for MC's in FiveM, where your club can be protected from malicious individuals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spicebag/fivem-bikewatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spicebag/fivem-bikewatch/issues"
+  },
+  "homepage": "https://github.com/spicebag/fivem-bikewatch#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1"
+  }
+}
